@@ -28,28 +28,28 @@
                 android:text="首页" />
 
             <RadioButton
-                android:id="@+id/t"
+                android:id="@+id/recommend"
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="好货" />
 
             <RadioButton
-                android:id="@+id/th"
+                android:id="@+id/friends"
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="朋友" />
 
             <RadioButton
-                android:id="@+id/tge"
+                android:id="@+id/shoppingCart"
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="购物车" />
 
             <RadioButton
-                android:id="@+id/tgee"
+                android:id="@+id/mine"
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
