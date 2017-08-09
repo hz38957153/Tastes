@@ -1,8 +1,10 @@
-package com.tt.taste;
+package com.tt.taste.view.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+
+import com.tt.taste.R;
 
 /**
  * Created by hz on 2017/8/8.
