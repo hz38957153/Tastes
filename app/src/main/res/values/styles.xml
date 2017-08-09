@@ -13,5 +13,10 @@
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="homeRadioButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+
+    </style>
 
 </resources>
