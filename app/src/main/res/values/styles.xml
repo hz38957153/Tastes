@@ -19,5 +19,10 @@
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/home</item>
     </style>
-
+    <style name="recommend_navigation">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:button">@null</item>
+    </style>
 </resources>

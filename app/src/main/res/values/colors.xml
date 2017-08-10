@@ -2,6 +2,9 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#c3c0c1</color>
     <color name="navigation">#979797</color>
+    <color name="searchbackgroud">#eeeeee</color>
+    <color name="textColor">#323232</color>
+    <color name="markOrange">#ff8921</color>
 </resources>

@@ -4,9 +4,90 @@
     android:layout_height="match_parent">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="好货"
-        android:textSize="48sp"
-        android:gravity="center"/>
+        android:layout_height="32dp"
+        android:text="搜索好物"
+        android:textSize="14sp"
+        android:textColor="@color/navigation"
+        android:background="@drawable/search_backgroud"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RadioButton
+                    android:id="@+id/rdNew"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/recommend_navigation"
+                    android:text="新品"/>
+                <RadioButton
+                    android:id="@+id/rdHot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/recommend_navigation"
+                    android:text="热卖"/>
+                <RadioButton
+                    android:id="@+id/rdCook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/recommend_navigation"
+                    android:text="厨具"/>
+                <RadioButton
+                    android:id="@+id/rdWine"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/recommend_navigation"
+                    android:text="美酒"/>
+                <RadioButton
+                    android:id="@+id/rdCoffee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/recommend_navigation"
+                    android:text="咖啡"/>
+                <RadioButton
+                    android:id="@+id/rdGoods"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/recommend_navigation"
+                    android:text="好货"/>
+                <!--<RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/recommend_navigation"
+                    android:text="新品"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/recommend_navigation"
+                    android:text="新品"/>-->
+            </RadioGroup>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/markOrange"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/recommend_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.view.ViewPager>
 
 </LinearLayout>
