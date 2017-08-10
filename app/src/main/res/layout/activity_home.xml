@@ -21,17 +21,20 @@
             >
 
             <RadioButton
-                android:id="@+id/home"
+                android:id="@+id/radioHome"
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="首页" />
+                android:drawableTop="@drawable/home"
+                android:checked="true"
+                android:text="首页"/>
 
             <RadioButton
-                android:id="@+id/recommend"
+                android:id="@+id/radioRecommend"
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableTop="@drawable/recommend"
                 android:text="好货" />
 
             <RadioButton
@@ -39,6 +42,7 @@
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableTop="@drawable/friends"
                 android:text="朋友" />
 
             <RadioButton
@@ -46,6 +50,7 @@
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableTop="@drawable/shopping"
                 android:text="购物车" />
 
             <RadioButton
@@ -53,6 +58,7 @@
                 style="@style/homeRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableTop="@drawable/mine"
                 android:text="我的" />
         </RadioGroup>
 

@@ -23,6 +23,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="?android:attr/windowBackground"
-        app:menu="@menu/navigation" />
+        app:menu="@menu/navigation"
+        app:itemIconTint="#ff8921"
+        app:itemTextColor="@android:color/black"
+        app:paddingStart="5dp"
+        app:paddingEnd="5dp"/>
 
 </LinearLayout>

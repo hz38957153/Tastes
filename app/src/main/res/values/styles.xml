@@ -16,7 +16,8 @@
     <style name="homeRadioButton">
         <item name="android:layout_weight">1</item>
         <item name="android:button">@null</item>
-
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/home</item>
     </style>
 
 </resources>
